@@ -1,6 +1,6 @@
 import PostCard from '../PostCard';
 
-const Post = ({posts}) => (
+ const Post = ({posts}) => (
     <div className="posts">
     {posts.map(post => (
       <PostCard
@@ -10,5 +10,4 @@ const Post = ({posts}) => (
       ))}
   </div>
 )
-
-export default Post
+ export default Post;
