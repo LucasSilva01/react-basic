@@ -1,5 +1,5 @@
 import PostCard from '../PostCard';
-
+import './styles.css';
  const Post = ({posts}) => (
     <div className="posts">
     {posts.map(post => (
